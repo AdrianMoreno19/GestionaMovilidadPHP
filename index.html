@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GestionaMovilidad</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario Dinamico</h1>
+        <form action="script.php" method="post">
+            Opciones:<SELECT NAME="formularios">
+                <OPTION VALUE="logistica" SELECTED>logistica</OPTION>
+                <OPTION VALUE="residentes">residentes</OPTION>
+                <OPTION VALUE="servicios">servicios</OPTION>
+                <OPTION VALUE="taxis">taxis</OPTION>
+                <OPTION VALUE="vehiculosEMT">vehiculosEMT</OPTION>
+                </SELECT>
+            <br><br>
+            <a href="infractores.php">infractores</a>
+            <br><br>
+            <input type="submit" name="enviar">
+        </form>
+    </div>
+</body>
+</html>
